@@ -104,14 +104,12 @@ body {
 }
 
 .card-bottom {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 100;
-    letter-spacing: -1px;
+
 }
 
-.card-bottom .spacing {
-    line-height: 0.2;
-}
+
 
 
 

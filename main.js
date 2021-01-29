@@ -22,7 +22,7 @@ const isDayTime=(icon)=>{
 updateWheaterApp = (city)=>{
     console.log(city);
     const imageName = city.weather[0].icon;
-    const iconSrc = 'http://openwheatermap.org/img/wn/${imageName}.@2x.png'
+    const iconSrc = `http://openweathermap.org/img/wn/${imageName}@2x.png`
     cityName.textContent = city.name;
     cardBody.innerHTML=`<div class="card-mid row">
                         <div class="col text-center temp">
