@@ -116,6 +116,17 @@ body {
     max-width: 90%;
     min-width: 100px;
 }
+    
+.card-bottom {
+    line-height: 0;
+
+}
+    
+    .card-bottom div:first-child {
+        margin-bottom: 1em;
+        margin-top: 10px;
+    }
+    
 }
 
 
