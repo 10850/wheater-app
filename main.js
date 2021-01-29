@@ -21,7 +21,7 @@ const isDayTime=(icon)=>{
 
 updateWheaterApp = (city)=>{
     console.log(city);
-    const imageName = city.wheater[0].icon;
+    const imageName = city.weather[0].icon;
     const iconSrc = 'http://openwheatermap.org/img/wn/${imageName}.@2x.png'
     cityName.textContent = city.name;
     cardBody.innerHTML=`<div class="card-mid row">
@@ -29,7 +29,7 @@ updateWheaterApp = (city)=>{
                         <span>${spitOutCelcius(city.main.temp)}&deg;C </span>
                         </div>
                         <div class="col-4 condition-temp">
-                            <p class="condition">${city.wheater[0].description}</p>
+                            <p class="condition">${city.weather[0].description}</p>
                             <p class="high">${spitOutCelcius(city.main.temp_max)}&deg;C</p>
                             <p class="low">${spitOutCelcius(city.main.temp_min)}&deg;C</p>
                         </div>
